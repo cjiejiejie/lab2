@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script>
+            var username=location.search;
+            username=username.substring(1);
+            function func()
+            {
+                window.location.href="zaixian.html?username="+username+"&roomid="+fangjianhao.value+"&renshu=6";
+            }
+        </script>
+       <body style="background:url(images/join.png); width:100%; background-repeat:no-repeat; background-size:100% 100%;">
+        <input type="button" onclick='location.href=("online.html")' style="background:url(data/button6.png);width:50;height:50;background-size:cover;border:none;">
+        <input type="text" id="fangjianhao" style="background:url(data/65-33.png);width:170;height:38;background-size:cover;position:absolute;left: 51%; top: 31%;border:none;border-radius:9px;">
+        <input type="text" id="mima" style="background:url(data/65-33.png);width:170;height:38;background-size:cover;position:absolute;left: 51%; top: 43%;border:none;border-radius:9px;">
+        <input type="button" onclick="func()" style="background:url(data/button5.png);width:175;height:75;background-size:cover;position:absolute;left: 43%; top: 54%;border:none;">
+</body>
+</html> 
